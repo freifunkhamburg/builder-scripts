@@ -21,7 +21,7 @@ if [ ! -t 0 ]; then
 fi
 set -x
 
-cd "$HOME/builds"
+cd "$HOME/build"
 [ -e master ] && mv master master.old
 rm -rf master.old & disown
 
